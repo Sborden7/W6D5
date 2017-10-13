@@ -1,0 +1,66 @@
+.title{
+  font-size: 45px;
+  font-family: 'Fjalla One', sans-serif;
+  color: Orange;
+}
+.clock {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  display: flex;
+  width: 340px;
+  background-color: green;
+  justify-content: space-between;
+}
+
+.words {
+  flex-direction: column;
+}
+
+.render {
+  flex-direction: column;
+}
+
+
+.tabs {
+  margin-top: 80px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  display: flex;
+  width: 330px;
+  height: 250px;
+  background-color: magenta;
+  justify-content: space-between;
+
+}
+
+.one {
+  border: 1px solid gold;
+  height: 35px;
+  display:flex;
+  width: 110px;
+}
+.two {
+  border: 1px solid gold;
+  height: 35px;
+  display:flex;
+  width: 110px;
+}
+.three {
+  border: 1px solid gold;
+  height: 35px;
+  display: flex;
+  width: 110px;
+}
+
+.one:hover {
+  background-color: orange;
+  cursor: crosshair;
+}
+.two:hover {
+  background-color: orange;
+  cursor: crosshair;
+}
+.three:hover {
+  background-color: orange;
+  cursor: crosshair;
+}
